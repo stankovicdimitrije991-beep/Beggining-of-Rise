@@ -1,121 +1,129 @@
 # Beginning of Rise — $2,500 → $10,000/month plan
 
-**Starting point:** 22 years old, full-time dispatcher, $2,500/month.
-**Goal:** $10,000/month, with income that is remote and location-independent so moving abroad becomes an option.
-
-> Assumption: "dispatcher" here means **freight/truck dispatch** (the most common remote dispatch job, and the one with the clearest way to scale). If you do emergency, taxi or logistics-coordinator dispatch, the overall strategy still holds; only Engine 1 changes.
+**Starting point:** 22 years old, living in Serbia, full-time dispatcher for **US truckloads**, $2,500/month.
+**Time available:** 2–3 hours a day outside the job.
+**Goal:** $10,000/month in remote income, plus the option to move abroad.
 
 ---
 
 ## The core idea
 
-You already have a skill that businesses pay a percentage for. Right now **you sell it to one employer for a flat salary**. To grow your income you need to **sell the same skill to several clients on commission**, use AI to handle more clients than one person normally could, and use content to bring clients to you.
+You already have a skill that US businesses pay a percentage for. Right now **you sell it to one employer for a flat salary**. To grow, you need to **sell the same skill to your own clients on commission**, use AI so each hour covers more trucks, and use content to bring clients to you.
 
-Social media alone will **not** get you to $10k fast. Most creators earn close to nothing for the first 6–12 months. Use content as a **funnel for your business**, not as the business.
+Social media alone will **not** get you to $10k fast. Use it as a **funnel for your business**, not as the business.
 
 | Engine | What it is | Realistic monthly income | Time to first $ |
 |---|---|---|---|
-| 1. Independent dispatch | Dispatch for owner-operators for 5–10% of gross | $1,500–$8,000 | 2–6 weeks |
-| 2. AI automation service | Build AI workflows for small carriers and brokers | $500–$3,000 | 1–3 months |
-| 3. Content + digital product | "Dispatcher using AI" content, then a course/templates | $0 early, $500–$5,000 later | 3–9 months |
+| 1. Independent dispatch | Dispatch for owner-operators for 5–10% of gross | $1,500–$8,000+ | 2–6 weeks |
+| 2. AI automation service | AI workflows for small carriers and dispatchers | $500–$3,000 | 2–4 months |
+| 3. Content + digital product | "Serbian dispatcher using AI" content, then templates/course | $0 early, $500–$5,000 later | 4–9 months |
 
-The math for Engine 1: one owner-operator truck grosses about $15k–$25k a month. At 7% that's **~$1,000–$1,750 per truck**. **6–8 trucks ≈ $8k–$12k/month.** This is the main path to $10k.
+The math: one owner-operator truck grosses about $15k–$25k a month. At 7% that's **~$1,000–$1,750 per truck**. **6–8 trucks ≈ $8k–$12k/month.**
 
 ---
 
-## Engine 1 — Go independent (on the side first)
+## Your real constraint: time zones
 
-**Do not quit your job yet.** Keep the $2,500 as your safety net until side income matches it for 2 months in a row.
+Serbia is **6 hours ahead of the US East Coast** and **9 hours ahead of the West Coast**.
 
-1. **Check your contract** for non-compete or non-solicit clauses. Never take your employer's carriers or brokers.
-2. **Pick a niche:** for example, dry van or reefer owner-operators with 1–3 trucks, new MC numbers (under 1 year old, they struggle most to find loads), or hotshot/box trucks.
-3. **Set up the business:** a simple registered business, a dispatch service agreement, a Limited Power of Attorney (if you'll negotiate for them), and an invoicing tool (Wave or Stripe).
-4. **Find clients:**
-   - Use FMCSA data and new MC listings to find new authorities, then call or email them.
-   - Join Facebook groups and Reddit communities for owner-operators and truckers.
-   - Ask for referrals from every driver you work with.
-   - Make cold calls: 30 a day, 5 days a week, is what fills a roster.
-5. **Start with 1–2 trucks.** Do excellent work, then ask for a testimonial and a referral.
-6. **Grow to 4–6 trucks**, then hire a junior dispatcher (often $600–$1,200/month in Eastern Europe, Latin America or the Philippines) and train them using your own documented processes.
+| US business hours | Serbia time |
+|---|---|
+| East Coast 8:00–17:00 | 14:00–23:00 |
+| Central 8:00–17:00 | 15:00–00:00 |
+| West Coast 8:00–17:00 | 17:00–02:00 |
+
+Your day job almost certainly takes up the East and Central hours. So **your side clients should be carriers based on the West Coast, or ones running West Coast and Mountain lanes**, since their mornings and afternoons land after your shift ends. Pick your 2–3 hours to match:
+
+- **Option A (late):** 23:00–02:00. You book loads during the West Coast afternoon. This is the most effective, but hard to keep up long term.
+- **Option B (early):** 07:00–09:00 Serbia time, which is 22:00–00:00 PT the previous night. Do the async work then: emails, rate confirmations, invoices, setup packets, next-day planning. Let your clients know that live booking happens in a fixed window.
+
+**What 2–3 hours a day gets you:** about **2–4 trucks** on the side, which is **~$2,000–$5,000/month extra**. That alone roughly doubles your income. Getting to $10k needs one more step: **once side income has beaten your salary for 2–3 months in a row, quit and go independent full-time**. That frees up the full US day for 8+ trucks and a junior dispatcher.
+
+---
+
+## Engine 1 — Your own dispatch business
+
+1. **Check your contract** for non-compete or non-solicit clauses. Never take your employer's carriers or brokers, and don't dispatch side clients during your work hours. Getting caught there costs you the safety net.
+2. **Register in Serbia.** The usual route is **preduzetnik paušalac** (sole trader taxed at a flat rate; you pay a fixed monthly tax and contributions instead of keeping full books).
+   - Watch the **test samostalnosti** (independence test). If one client pays most of your income, you may be taxed as an employee. Several carriers protect you; one big client is a risk.
+   - Mind the annual turnover limits for paušal and for VAT. **Hire a local knjigovođa** (bookkeeper), roughly €50–€100/month. They pay for themselves.
+3. **Getting paid from the US:** Payoneer is widely used in Serbia; you can also use direct USD wires to a Serbian bank's foreign-currency account. Check the current Wise options for Serbia. Stripe doesn't support Serbian businesses directly.
+4. **Paperwork:** a dispatch service agreement, a Limited Power of Attorney (to negotiate on a carrier's behalf), a carrier setup packet template, and weekly invoicing (% of gross, paid every Friday).
+5. **Niche:** owner-operators with 1–3 trucks, **new MC numbers** (under 1 year old), dry van or reefer, **West Coast / Mountain lanes**.
+6. **Finding clients:**
+   - Pull new authorities from FMCSA data, then email first and call during the US morning (17:00–19:00 Serbia time for the West Coast, on your days off or right after your shift).
+   - Owner-operator Facebook groups, Reddit (r/Truckers, r/OwnerOperators), and TruckersReport forums.
+   - Referrals: ask every happy driver.
+   - Target: 15–20 new contacts per day across email and DMs, and 30–50 calls a week.
+7. **Growth path:** 1 truck → 3 trucks while employed → quit → 6–8 trucks → hire a junior dispatcher in Serbia (around €800–€1,200/month; lots of trained people in Niš, Novi Sad and Belgrade) → 10–15 trucks.
 
 ## Engine 2 — AI as your multiplier
 
-Without help, one dispatcher can handle about 5–8 trucks. With AI you can handle more, and you can sell the same automations to others.
+Working only 2–3 hours, automation is the difference between 2 trucks and 4.
 
-**For your own operation:**
-- **ChatGPT / Claude:** broker email templates, rate negotiation scripts, summaries of rate confirmations, replies to drivers, writing SOPs.
-- **Make.com / Zapier / n8n:** load-board alerts → Slack/WhatsApp, automatic invoice creation when a POD arrives, daily driver check-in messages.
-- **AI voice and transcription** (Otter, Fireflies, or AI voice agents): record and summarize broker calls, and automate check calls.
-- **Google Sheets + AI:** track rate-per-mile, lane profitability, and each truck's weekly gross.
-- **Load board tools:** DAT/Truckstop with filters and alerts; test AI load-matching tools as they come out.
+**In your own business:**
+- **ChatGPT / Claude:** broker emails, negotiation scripts, summaries of rate confirmations, driver updates, your SOPs.
+- **Make.com / n8n / Zapier:** DAT/Truckstop load alerts sent to your phone, automatic invoices when a POD arrives, daily check-in messages to drivers, weekly gross reports for clients.
+- **AI transcription** (Otter, Fireflies) for broker calls; **AI voice agents** for routine check calls while you're at your day job.
+- **Google Sheets + AI:** rate-per-mile, deadhead and lane profitability per truck.
 
-**To sell (Engine 2 as income):** package what works into a "dispatch automation setup" for small carriers and other dispatchers. Charge $300–$1,500 per setup plus an optional monthly retainer.
+**To sell later:** a "dispatch automation setup" for small carriers and other dispatchers, $300–$1,500 per setup plus a monthly retainer. Most of this work is async, so it fits a schedule built around Serbian evenings.
 
-## Engine 3 — Content (funnel, then product)
+## Engine 3 — Content (funnel first, product later)
 
-**Positioning:** *"22-year-old dispatcher building a remote business with AI — from $2.5k to $10k/month."* Document your journey; you don't need to teach like an expert. People follow progress they can watch happen.
+**Positioning:** *"22-year-old from Serbia dispatching US trucks with AI, from $2.5k to $10k/month."* The Balkan dispatcher angle stands out. Thousands of people in Serbia, Bosnia, North Macedonia and elsewhere want to get into US dispatch, and US owner-operators want to know who is booking their loads.
 
-**Platforms:**
-- **TikTok + Instagram Reels + YouTube Shorts:** post the same short video to all three. Aim for 1 a day, filmed in batches on weekends.
-- **YouTube long-form:** 1 video every 1–2 weeks (e.g. "How I dispatch a truck with AI", "My first $1k month dispatching"). Long-form builds the most trust and earns ad revenue.
-- **LinkedIn:** to reach brokers, carriers and B2B clients for Engine 2.
+**Two audiences, two languages:**
+- **English** (TikTok, Reels, Shorts, YouTube): for US owner-operators. This brings **clients**.
+- **Serbian** (TikTok, Instagram, YouTube): for people who want to become dispatchers. This brings **course and coaching buyers**. It's an underserved market where you can quickly become the go-to name.
 
-**Content ideas:**
-- A day in the life of a dispatcher (screen recordings of load boards; blur private data)
-- "I negotiated this load from $1.8k to $2.4k. Here's the script."
-- "5 AI tools that save me 3 hours a day as a dispatcher"
-- Monthly income reports (always honest)
-- Mistakes new dispatchers and owner-operators make
-- The plan to move abroad and how you're getting there
+**Content budget with 2–3 hours a day:** about 30 minutes a day, plus one 2–3 hour batch on the weekend to film 5–7 shorts.
 
-**AI tools for content:** CapCut (auto-captions), Descript, OpusClip (cut long videos into shorts), ChatGPT/Claude (hooks and scripts), Canva.
+**Ideas:** a day in the life (blur private data), "how I negotiated this load up $600", AI tools that save you hours, honest monthly income reports, mistakes new dispatchers make, "how to start US dispatch from Serbia", the plan to move abroad.
 
-**Ways to earn from it, in this order:**
-1. Inbound clients for Engines 1 and 2 (the fastest money)
-2. A digital product: a dispatcher templates pack or a "Dispatch with AI" mini-course ($30–$200)
-3. Affiliate links (software tools, load boards, ELDs, factoring companies)
-4. Paid coaching for new dispatchers
-5. Ad revenue and sponsorships (slowest)
+**AI tools:** CapCut (auto-captions), OpusClip, Descript, ChatGPT/Claude for hooks and scripts, Canva.
+
+**Ways to earn from it, in this order:** inbound clients → Serbian-language course or templates pack (€30–€150) → paid coaching or mentorship → affiliate links (load boards, factoring, ELDs) → ad revenue and sponsorships.
 
 ---
 
-## Timeline (realistic version of "ASAP")
+## Timeline at 2–3 hours a day
 
 | Month | Focus | Target total income |
 |---|---|---|
-| 1 | Set up the business, sign 1 truck, post content daily | $2,500 + $0–1k |
-| 2–3 | 2–4 trucks, build your AI workflows | $4,000–$6,000 |
-| 4–6 | 4–6 trucks; quit only if 2 months are steady above your salary; sell your first automation setups | $6,000–$9,000 |
-| 6–12 | Hire a junior dispatcher, reach 8–12 trucks, launch a digital product | $10,000+ |
+| 1 | Register paušal, paperwork, outreach, sign the first truck, start posting | $2,500 + $0–1k |
+| 2–4 | 2–3 trucks, build the automations | $4,000–$5,500 |
+| 4–6 | 3–4 trucks; side income above your salary for 2–3 months → **quit** | $5,000–$7,000 |
+| 6–9 | Full-time independent: 6–8 trucks, launch the Serbian course | $8,000–$10,000 |
+| 9–12 | Junior dispatcher, 10+ trucks, sell automation setups | $10,000+ |
 
-Hitting $10k in 6–12 months is ambitious but realistic **if you put in 3–4 focused hours a day on top of your job**. Faster than that usually means luck.
+So **9–12 months** is realistic, and faster is possible with good clients and referrals. Before quitting, have **6 months of expenses saved**.
 
-## Daily schedule (while still employed)
+## Moving abroad (Serbian passport)
 
-- **Before work (1h):** prospecting calls and messages
-- **Breaks:** film one short clip, reply to comments and DMs
-- **After work (2–3h):** dispatch side clients (US hours suit Europe evenings), build automations
-- **Weekend:** film and edit content in batches, review weekly numbers
+With a Serbian passport you can visit Schengen visa-free for 90 days, but **you can't live or work there long term without a residence permit**. Remote income from US clients is what most **digital nomad visas** ask for. The usual requirements are listed below (they change every year, so check before applying):
 
-## Moving abroad
+| Country | Rough monthly income needed | Notes |
+|---|---|---|
+| Spain | ~€2,700–€2,800 | 200% of the Spanish minimum wage; reduced tax regime possible |
+| Croatia | ~€3,300+ | Tied to the average salary; close to home, same language family |
+| Portugal | ~€3,500 | 4× the Portuguese minimum wage |
+| Greece | ~€3,500 | |
+| UAE (Dubai) | ~$3,500 | 0% personal income tax; popular with dispatch businesses |
 
-Once your income is remote and from several clients, you can apply for **digital nomad / remote work visas**. Many require proof of about **$2,500–$3,500/month** in remote income, so you may qualify **before** you reach $10k. Check the current rules for:
-- Spain, Portugal, Croatia, Greece, Estonia, Malta (EU digital nomad visas)
-- UAE (Dubai remote work visa; often good for taxes)
-- Thailand (DTV), Indonesia/Bali, Georgia, Mexico, Colombia
-
-Before you move: keep 6 months of expenses in savings, have contracts in place with your clients, use a payment setup that works internationally (Wise, Payoneer, a company bank account), and **talk to a tax advisor** about where you'll be a tax resident.
+You can qualify **at $4–5k/month**, well before $10k. Usual requirements: proof of 6–12 months of income, client contracts, bank statements, health insurance, and a clean criminal record. **Talk to a tax advisor** about when you stop being a Serbian tax resident and what happens to your paušal company when you move.
 
 ## Rules
 
-1. Don't quit the job until side income is steady.
-2. Don't take your employer's clients.
-3. Don't buy "get rich" courses. Your own field is your course.
-4. Put 20–30% of every extra dollar into savings or reinvest it.
-5. Track one number each week: **total monthly gross under dispatch**.
+1. Keep the job until side income is steady.
+2. Don't take your employer's clients, and don't work side clients on company time.
+3. Have more than one client (independence test, and simple risk).
+4. Don't buy "get rich" courses. Your field is your course.
+5. Save or reinvest 20–30% of every extra dollar.
+6. Track one number every week: **total gross under dispatch**.
 
 ## Weekly scorecard
 
-| Week | Trucks | Gross dispatched | My income | Prospects contacted | Videos posted | Followers |
+| Week | Trucks | Gross dispatched | My income | Contacts made | Videos posted | Followers |
 |---|---|---|---|---|---|---|
 | 1 | | | | | | |
