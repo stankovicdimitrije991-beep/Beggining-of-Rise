@@ -44,9 +44,10 @@ Your day job almost certainly takes up the East and Central hours. So **your sid
 ## Engine 1 — Your own dispatch business
 
 1. **Check your contract** for non-compete or non-solicit clauses. Never take your employer's carriers or brokers, and don't dispatch side clients during your work hours. Getting caught there costs you the safety net.
-2. **Register in Serbia.** The usual route is **preduzetnik paušalac** (sole trader taxed at a flat rate; you pay a fixed monthly tax and contributions instead of keeping full books).
-   - Watch the **test samostalnosti** (independence test). If one client pays most of your income, you may be taxed as an employee. Several carriers protect you; one big client is a risk.
-   - Mind the annual turnover limits for paušal and for VAT. **Hire a local knjigovođa** (bookkeeper), roughly €50–€100/month. They pay for themselves.
+2. **Your paušal company (already registered).** You can start invoicing new carriers from it right away. Three things to check with your knjigovođa (bookkeeper):
+   - **Activity code (šifra delatnosti):** make sure it covers dispatch services for third parties (often 5229, other transport support activities). If it doesn't, update it with APR.
+   - **Test samostalnosti (independence test):** if your current employer is your only client, you're the classic risk case and could be taxed as an employee. Every new carrier you sign lowers that risk.
+   - **The paušal turnover limit (6M RSD a year, about $4,500–5,000/month):** once you go over it, you lose paušal status. Plan the switch **before** you reach it: either *preduzetnik knjigaš* (sole trader keeping full books, taxed on actual profit) or a *DOO* (limited company). Also ask how the 8M RSD VAT threshold applies to services invoiced to US clients. At $10k/month you'll be about 12M RSD a year.
 3. **Getting paid from the US:** Payoneer is widely used in Serbia; you can also use direct USD wires to a Serbian bank's foreign-currency account. Check the current Wise options for Serbia. Stripe doesn't support Serbian businesses directly.
 4. **Paperwork:** a dispatch service agreement, a Limited Power of Attorney (to negotiate on a carrier's behalf), a carrier setup packet template, and weekly invoicing (% of gross, paid every Friday).
 5. **Niche:** owner-operators with 1–3 trucks, **new MC numbers** (under 1 year old), dry van or reefer, **West Coast / Mountain lanes**.
@@ -91,9 +92,9 @@ Working only 2–3 hours, automation is the difference between 2 trucks and 4.
 
 | Month | Focus | Target total income |
 |---|---|---|
-| 1 | Register paušal, paperwork, outreach, sign the first truck, start posting | $2,500 + $0–1k |
+| 1 | Check activity code and contract, paperwork, outreach, sign the first truck, start posting | $2,500 + $0–1k |
 | 2–4 | 2–3 trucks, build the automations | $4,000–$5,500 |
-| 4–6 | 3–4 trucks; side income above your salary for 2–3 months → **quit** | $5,000–$7,000 |
+| 4–6 | 3–4 trucks; side income above your salary for 2–3 months → **quit**; plan the move off paušal with your bookkeeper | $5,000–$7,000 |
 | 6–9 | Full-time independent: 6–8 trucks, launch the Serbian course | $8,000–$10,000 |
 | 9–12 | Junior dispatcher, 10+ trucks, sell automation setups | $10,000+ |
 
