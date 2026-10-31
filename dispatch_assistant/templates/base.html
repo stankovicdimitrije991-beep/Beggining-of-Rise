@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Dispatch Assistant{% endblock %}</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1c2430; --muted:#5f6b7a; --line:#dde2e8;
+          --accent:#1f6feb; --warn:#b54708; --warn-bg:#fff4e5; --ok:#067647; --bad:#b42318; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#11151b; --card:#1a2029; --text:#e6ebf1; --muted:#9aa6b4; --line:#2c3542;
+            --accent:#58a6ff; --warn:#f5b041; --warn-bg:#3a2a12; --ok:#4ade80; --bad:#f87171; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--text); }
+  header { background:var(--card); border-bottom:1px solid var(--line); padding:12px 16px;
+           display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+  header strong { margin-right:auto; }
+  header a { color:var(--text); text-decoration:none; }
+  main { max-width:1100px; margin:0 auto; padding:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:16px; margin-bottom:16px; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:13px; }
+  .table-wrap { overflow-x:auto; }
+  a { color:var(--accent); }
+  input, select, textarea, button { font:inherit; color:var(--text); background:var(--bg);
+    border:1px solid var(--line); border-radius:6px; padding:6px 8px; }
+  button { background:var(--accent); color:#fff; border:0; cursor:pointer; }
+  button.secondary { background:transparent; color:var(--text); border:1px solid var(--line); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:12px; }
+  label { display:block; font-size:13px; color:var(--muted); }
+  label input, label textarea { width:100%; margin-top:2px; }
+  label.missing input { border-color:var(--warn); background:var(--warn-bg); }
+  .pill { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; border:1px solid var(--line); }
+  .pill.needs_review { color:var(--warn); border-color:var(--warn); }
+  .pill.rejected { color:var(--bad); border-color:var(--bad); }
+  .pill.delivered, .pill.invoiced { color:var(--ok); border-color:var(--ok); }
+  .alert { background:var(--warn-bg); color:var(--warn); border-radius:6px; padding:10px 12px; margin-bottom:16px; }
+  .muted { color:var(--muted); }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+</style>
+</head>
+<body>
+<header>
+  <strong>Dispatch Assistant</strong>
+  <a href="/">Loads</a>
+  <a href="/report">Morning report</a>
+  <a href="/errors">Error log</a>
+  <span class="muted">extractor: {{ extractor_name }}</span>
+</header>
+<main>
+{% if error %}<div class="alert">{{ error }}</div>{% endif %}
+{% block content %}{% endblock %}
+</main>
+</body>
+</html>

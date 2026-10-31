@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <form class="row" action="/upload" method="post" enctype="multipart/form-data">
+    <strong>Upload rate confirmation (PDF)</strong>
+    <input type="file" name="file" accept="application/pdf" required>
+    <button type="submit">Extract</button>
+  </form>
+</div>
+
+<div class="card">
+  <form class="row" method="get" action="/">
+    <input name="q" value="{{ q }}" placeholder="Search load #, broker, city...">
+    <select name="status">
+      <option value="">All statuses</option>
+      {% for s in statuses %}<option value="{{ s }}" {% if s == status %}selected{% endif %}>{{ s }}</option>{% endfor %}
+    </select>
+    <button class="secondary" type="submit">Filter</button>
+  </form>
+  <div class="table-wrap">
+  <table>
+    <tr><th>#</th><th>Load</th><th>Broker</th><th>Pickup</th><th>Delivery</th><th>Rate</th><th>Status</th></tr>
+    {% for item in loads %}{% set l = item.load %}
+    <tr>
+      <td><a href="/loads/{{ item.id }}">{{ item.id }}</a></td>
+      <td>{{ l.load_number or "—" }}{% if item.missing %}<br><span class="muted">{{ item.missing|length }} missing</span>{% endif %}</td>
+      <td>{{ l.broker_name or "—" }}</td>
+      <td>{{ l.pickup.city or "?" }}, {{ l.pickup.state or "?" }}<br><span class="muted">{{ l.pickup.date or "" }}</span></td>
+      <td>{{ l.delivery.city or "?" }}, {{ l.delivery.state or "?" }}<br><span class="muted">{{ l.delivery.date or "" }}</span></td>
+      <td>{% if l.rate_usd is not none %}${{ "{:,.2f}".format(l.rate_usd) }}{% else %}—{% endif %}</td>
+      <td><span class="pill {{ item.status }}">{{ item.status }}</span></td>
+    </tr>
+    {% else %}
+    <tr><td colspan="7" class="muted">No loads yet. Upload a rate con above (try the PDFs in dispatch_assistant/samples/).</td></tr>
+    {% endfor %}
+  </table>
+  </div>
+</div>
+{% endblock %}

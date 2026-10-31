@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Load {{ item.id }}{% endblock %}
+{% block content %}
+{% set l = item.load %}
+<div class="card row">
+  <strong>Load #{{ item.id }}</strong>
+  <span class="pill {{ item.status }}">{{ item.status }}</span>
+  <span class="muted">from {{ item.source_file }} · {{ item.extractor }} · updated {{ item.updated_at }}</span>
+</div>
+
+{% if item.missing %}
+<div class="alert">Missing before approval: {{ item.missing|join(", ") }}. Check the PDF and fill these in.</div>
+{% endif %}
+
+<form class="card" method="post" action="/loads/{{ item.id }}">
+  <div class="grid">
+    {% for f in text_fields %}
+    <label class="{% if f in item.missing %}missing{% endif %}">{{ f.replace("_", " ") }}
+      <input name="{{ f }}" value="{{ l[f] or '' }}"></label>
+    {% endfor %}
+    {% for f in number_fields %}
+    <label class="{% if f in item.missing %}missing{% endif %}">{{ f.replace("_", " ") }}
+      <input name="{{ f }}" value="{{ l[f] if l[f] is not none else '' }}"></label>
+    {% endfor %}
+  </div>
+  {% for stop in ["pickup", "delivery"] %}
+  <h3>{{ stop|capitalize }}</h3>
+  <div class="grid">
+    {% for f in stop_fields %}{% set key = stop ~ "." ~ f %}
+    <label class="{% if key in item.missing %}missing{% endif %}">{{ f.replace("_", " ") }}
+      <input name="{{ key }}" value="{{ l[stop][f] or '' }}"></label>
+    {% endfor %}
+  </div>
+  {% endfor %}
+  <h3>Other</h3>
+  <div class="grid">
+    <label>reference numbers (one per line)
+      <textarea name="reference_numbers" rows="4">{{ l.reference_numbers|join("\n") }}</textarea></label>
+    <label>dispatcher notes
+      <textarea name="notes" rows="4">{{ item.notes }}</textarea></label>
+  </div>
+  <p><button type="submit">Save changes</button></p>
+</form>
+
+<div class="card">
+  <strong>Status</strong>
+  <p class="muted">Nothing is sent to brokers or drivers automatically. Approving only marks the data as checked by you.</p>
+  <div class="row">
+  {% for s in statuses if s != item.status %}
+    <form method="post" action="/loads/{{ item.id }}/status">
+      <input type="hidden" name="status" value="{{ s }}">
+      <button class="{% if s != 'approved' %}secondary{% endif %}" type="submit">{{ s }}</button>
+    </form>
+  {% endfor %}
+  </div>
+</div>
+{% endblock %}

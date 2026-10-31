@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Morning report{% endblock %}
+{% macro section(title, items, empty) %}
+<div class="card">
+  <strong>{{ title }} ({{ items|length }})</strong>
+  {% if items %}
+  <ul>{% for item in items %}{% set l = item.load %}
+    <li><a href="/loads/{{ item.id }}">#{{ item.id }} {{ l.load_number or "" }}</a>
+      {{ l.pickup.city or "?" }}, {{ l.pickup.state or "?" }} → {{ l.delivery.city or "?" }}, {{ l.delivery.state or "?" }}
+      <span class="muted">{{ l.broker_name or "" }}{% if item.missing %} · missing: {{ item.missing|join(", ") }}{% endif %}</span></li>
+  {% endfor %}</ul>
+  {% else %}<p class="muted">{{ empty }}</p>{% endif %}
+</div>
+{% endmacro %}
+{% block content %}
+<div class="card">
+  <strong>Morning report · {{ r.date }}</strong>
+  <p>{{ r.active_count }} active loads · ${{ "{:,.2f}".format(r.active_gross) }} gross in progress</p>
+</div>
+{{ section("Overdue deliveries", r.overdue_delivery, "Nothing overdue.") }}
+{{ section("Pickups today", r.pickups_today, "No pickups today.") }}
+{{ section("Deliveries today", r.deliveries_today, "No deliveries today.") }}
+{{ section("Waiting for your review", r.needs_review, "All extractions reviewed.") }}
+{{ section("Missing information", r.missing_info, "No missing information.") }}
+{{ section("Delivered, ready to invoice", r.to_invoice, "Nothing to invoice.") }}
+{% endblock %}

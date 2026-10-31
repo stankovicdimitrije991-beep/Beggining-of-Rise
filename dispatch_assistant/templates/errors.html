@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Error log{% endblock %}
+{% block content %}
+<div class="card table-wrap">
+  <table>
+    <tr><th>When</th><th>File</th><th>Error</th></tr>
+    {% for e in errors %}
+    <tr><td>{{ e.created_at }}</td><td>{{ e.source_file }}</td><td>{{ e.message }}</td></tr>
+    {% else %}
+    <tr><td colspan="3" class="muted">No errors logged.</td></tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}
